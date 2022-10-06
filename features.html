@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Features</title>
+  <title>Destination</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <link href="css.css" rel="stylesheet" type="text/css">
 </head>
-<body class="bg">
-    <nav class="navbar navbar-expand-sm navbar-light bgnav">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="project.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active navtext" href="features.html" id="feature">Features</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-              </li>
-          </ul>
-          <ul class="navbar-nav">
+<body class="bgdestination">
+  <nav class="navbar navbar-expand-sm bgnav">
+    <div class="container-fluid">
+      <ul class="navbar-nav  me-auto">
+        <li class="nav-item">
+          <a class="navbar-brand "><img src ="https://www.freepnglogos.com/uploads/wedding/bride-and-groom-wedding-png-transparent-image-10.png" height="35"></a>
+        </li>
+        <li class="nav-item">
+         <a class="navbar-brand lgname" href="project.html"> Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand lgname" href="features.html"> Destination</a>
+         </li>
+      </ul>
+        <ul class="navbar-nav ">
           <li class="nav-item me-4">
             <button type="button  "  class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signin">LOG IN</button>
           </li>
-          <li class="nav-item me-4">
+          <li class="nav-item">
             <button type="button " class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#signup">REGISTER</button>
           </li>
-          </ul>
-  
-      </div>
-  </nav>
+        </ul>
+        
+    </div>
+</nav>
   <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content modalbg">
@@ -91,18 +87,25 @@
       </div>
     </div>
   </div>
-  <div class="container ab">
+  <div class="container-fluid p-5 text-center">
+    <h1>Destination Wedding</h1>
+    <p>Choose the perfect destination for perfect wedding</p> 
+  </div>
+  <div class="container">
     <div class="row">
-      <div class="col-sm-5">
-        <h3>Features</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      </div>
-      <div>
-        <a href="features.html">
-        <button type="button" class="btn">Get Started!</button>
+      <div class="col-sm-6 text-center">
+        <a href="page3.html">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2015/11/Andaman-Nicobar.jpg" width="500" height="300">
+        <h3 class="mt-2 text-dark deco">Andaman-Nicobar</h3>
         </a>
-      </div>
 
+      </div>
+      <div class="col-sm-6 text-center">
+        <a href="page4.html">
+        <img src="https://images.squarespace-cdn.com/content/v1/5a5ea195d0e628893faab508/1577554008285-CHG6MGF6VHZV6S8Q5IPM/i-PfvzgTJ-X4.jpg?format=1000w" width="500" height="300">
+        <h3 class="mt-2 text-dark">Goa</h3>
+        </a>
+    </div>
+  </div>
 </body>
 </html>
